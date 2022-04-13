@@ -11,7 +11,6 @@ def list_to_dict(drawn):
             result[item]=1
     return result
 
-
 def bingo(drawn, expected):
     drawn_dict = list_to_dict(drawn)
     for k,v in expected.items():
